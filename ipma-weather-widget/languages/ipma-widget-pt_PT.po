@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IPMA Forecast Widget\n"
+"POT-Creation-Date: 2017-08-24 11:05+0100\n"
+"PO-Revision-Date: 2017-08-24 11:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Dipcode\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;"
+"_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;"
+"esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;"
+"transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/partials/widget-form.php:16
+msgid "Title"
+msgstr "Titulo a apresentar"
+
+#: includes/class-ipma-widget.php:185
+msgid "Forecast"
+msgstr "Meteorologia"
+
+#: public/class-ipma-widget-public.php:98
+msgid "Not available"
+msgstr "Sem informação"
+
+#: public/class-ipma-widget-public.php:99
+msgid "Clear sky"
+msgstr "Céu limpo"
+
+#: public/class-ipma-widget-public.php:100
+msgid "Partly cloudy"
+msgstr "Céu pouco nublado"
+
+#: public/class-ipma-widget-public.php:101
+msgid "Mostly partly cloudy"
+msgstr "Céu parcialmente nublado"
+
+#: public/class-ipma-widget-public.php:102
+#: public/class-ipma-widget-public.php:123
+#: public/class-ipma-widget-public.php:125
+msgid "Cloudy sky"
+msgstr "Céu muito nublado ou encoberto"
+
+#: public/class-ipma-widget-public.php:103
+msgid "Cloudy (high clouds)"
+msgstr "Céu nublado por nuvens altas"
+
+#: public/class-ipma-widget-public.php:104
+msgid "Showers"
+msgstr "Aguaceiros"
+
+#: public/class-ipma-widget-public.php:105
+msgid "Light showers"
+msgstr "Aguaceiros fracos"
+
+#: public/class-ipma-widget-public.php:106
+msgid "Heavy showers"
+msgstr "Aguaceiros fortes"
+
+#: public/class-ipma-widget-public.php:107
+msgid "Rain"
+msgstr "Chuva"
+
+#: public/class-ipma-widget-public.php:108
+msgid "Light rain"
+msgstr "Chuva fraca ou chuvisco"
+
+#: public/class-ipma-widget-public.php:109
+msgid "Heavy rain"
+msgstr "Chuva forte"
+
+#: public/class-ipma-widget-public.php:110
+msgid "Intermittent rain"
+msgstr "Períodos de chuva"
+
+#: public/class-ipma-widget-public.php:111
+msgid "Light intermittent rain"
+msgstr "Períodos de chuva fraca"
+
+#: public/class-ipma-widget-public.php:112
+msgid "Heavy intermittent rain"
+msgstr "Períodos de chuva forte"
+
+#: public/class-ipma-widget-public.php:113
+msgid "Drizzle"
+msgstr "Chuvisco"
+
+#: public/class-ipma-widget-public.php:114
+msgid "Mist"
+msgstr "Neblina"
+
+#: public/class-ipma-widget-public.php:115
+msgid "Fog and low clouds"
+msgstr "Nevoeiro ou nuvens baixas"
+
+#: public/class-ipma-widget-public.php:116
+msgid "Snow"
+msgstr "Neve"
+
+#: public/class-ipma-widget-public.php:117
+msgid "Lightning"
+msgstr "Trovoada"
+
+#: public/class-ipma-widget-public.php:118
+msgid "Intermittent rain and lightning"
+msgstr "Aguaceiros e trovoada"
+
+#: public/class-ipma-widget-public.php:119
+msgid "Hail"
+msgstr "Granizo"
+
+#: public/class-ipma-widget-public.php:120
+msgid "Frost"
+msgstr "Geada"
+
+#: public/class-ipma-widget-public.php:121
+msgid "Heavy rain and lightning"
+msgstr "Chuva forte e trovoada"
+
+#: public/class-ipma-widget-public.php:122
+msgid "Convective clouds"
+msgstr "Nebulosidade convectiva"
+
+#: public/class-ipma-widget-public.php:124
+msgid "Fog"
+msgstr "Nevoeiro"
+
+#: public/js/ipma-widget-public.min.js:1
+msgid "[data-ipma-widget]"
+msgstr ""
+
+#: public/js/ipma-widget-public.min.js:1
+msgid "[data-ipma-widget-forecasts]"
+msgstr ""
+
+#: public/js/ipma-widget-public.min.js:1
+msgid "[data-ipma-widget-unavailabe]"
+msgstr ""
+
+#: public/partials/widget.php:25 public/partials/widget.php:26
+msgid "IPMA - The Portuguese Institute for Sea and Atmosphere"
+msgstr "IPMA - Instituto Português do Mar e da Atmosfera"
+
+#: public/partials/widget.php:34
+msgid "Select a district"
+msgstr "Escolha um distrito"
+
+#: public/partials/widget.php:37
+msgid "Select a location"
+msgstr "Escolha uma cidade / ilha"
+
+#: public/partials/widget.php:41
+msgid "Forecast temporarily unavailable"
+msgstr "De momento não é possível apresentar a informação"
+
+#: public/partials/widget.php:55
+msgid "Today"
+msgstr "Hoje"
+
+#: public/partials/widget.php:57
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+#: public/partials/widget.php:69
+msgid "Minimum"
+msgstr "Mínima"
+
+#: public/partials/widget.php:70
+msgid "Maximum"
+msgstr "Máxima"
+
+#: public/partials/widget.php:71
+msgid "Precipitation"
+msgstr "Probabilidade de precipitação"
+
+#: widgets/class-meteo-ipma.php:38
+msgid "Meteo IPMA"
+msgstr "Meteorologia"
+
+#: widgets/class-meteo-ipma.php:41
+msgid "Provides a weather forecast for Portuguese regions"
+msgstr ""
+"Apresenta a previsão do tempo para regiões de Portugal continental e ilhas"
+
+#: widgets/class-meteo-ipma.php:116
+msgid "New title"
+msgstr ""
