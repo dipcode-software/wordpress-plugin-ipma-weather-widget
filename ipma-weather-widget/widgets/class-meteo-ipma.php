@@ -113,7 +113,7 @@ class Meteo_IPMA extends WP_Widget {
 			(array) $instance
 		);
 
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'New title', 'text_domain' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'New title', 'ipma-widget' );
 		$title_id = $this->get_field_id( 'title' );
 		$title_field = $this->get_field_name( 'title' );
 		include( plugin_dir_path( __DIR__ ) . 'admin/partials/widget-form.php' );
