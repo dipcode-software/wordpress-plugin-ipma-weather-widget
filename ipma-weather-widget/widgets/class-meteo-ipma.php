@@ -35,10 +35,10 @@ class Meteo_IPMA extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			$this->get_widget_slug(),
-			__( 'Weather Forecast in Portugal', 'ipma-widget' ),
+			__( 'Weather Forecast in Portugal', 'ipma-weather-widget' ),
 			array(
 				'classname'  => 'ipma-widget-class',
-				'description' => __( 'Provides a weather forecast for Portuguese regions', 'ipma-widget' ),
+				'description' => __( 'Provides a weather forecast for Portuguese regions', 'ipma-weather-widget' ),
 			)
 		);
 	}
@@ -113,7 +113,7 @@ class Meteo_IPMA extends WP_Widget {
 			(array) $instance
 		);
 
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'New title', 'ipma-widget' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'New title', 'ipma-weather-widget' );
 		$title_id = $this->get_field_id( 'title' );
 		$title_field = $this->get_field_name( 'title' );
 		include( plugin_dir_path( __DIR__ ) . 'admin/partials/widget-form.php' );

@@ -13,6 +13,6 @@
 
 ?>
 <p>
-<label for="<?php echo esc_attr( $title_id ); ?>"><?php esc_attr_e( 'Title', 'ipma-widget' ); ?>:</label> 
+<label for="<?php echo esc_attr( $title_id ); ?>"><?php esc_attr_e( 'Title', 'ipma-weather-widget' ); ?>:</label> 
 <input class="widefat" id="<?php echo esc_attr( $title_id ); ?>" name="<?php echo esc_attr( $title_field ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
 </p>

@@ -177,7 +177,7 @@ class IPMA_Widget {
 	 */
 	public function render_shortcode( $atts, $contents = null ) {
 		$args = array(
-			'widget_name' => __( 'Forecast', 'ipma-widget' ),
+			'widget_name' => __( 'Forecast', 'ipma-weather-widget' ),
 			'horizontal'  => true,
 		);
 		ob_start();
